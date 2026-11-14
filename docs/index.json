@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Upinking DSH plugins",
+    "zh": "Upinking DSH 插件"
+  },
+  "description": {
+    "en": "Plugins published by upinking for DeepSeek Harness.",
+    "zh": "upinking 发布的 DeepSeek Harness 插件。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-equity-desk",
+      "title": {
+        "en": "Equity trading desk",
+        "zh": "股票交易台"
+      },
+      "description": {
+        "en": "A local simulated equity ledger for A-share, Hong Kong, and US markets with live public quotes, T+1, fees, margin, and 1x–10x leverage.",
+        "zh": "接入公开行情的本机股票账本，支持 A股 / 港股 / 美股、T+1、费用、融资与 1x–10x 杠杆；仅本机模拟，不连接券商。"
+      },
+      "icon": "icons/dsh-equity-desk.svg",
+      "author": "upinking",
+      "homepage": "https://github.com/upinking/dsh-equity-desk#readme",
+      "repository": {
+        "url": "https://github.com/upinking/dsh-equity-desk"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794650471,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/upinking/dsh-equity-desk",
+            "commit": "d152316497eb5fb8885f3ddd6635efc5f6a500e8"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
