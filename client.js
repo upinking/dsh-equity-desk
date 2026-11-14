@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: 'dsh-stock-desk',
+  id: 'dsh-equity-desk',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
