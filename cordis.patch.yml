@@ -1,0 +1,4 @@
+# 股票交易台：同一插件包提供 Host API 与浏览器侧栏入口
+- insert:
+    - id: stock-desk
+      name: 'dsh-equity-desk'

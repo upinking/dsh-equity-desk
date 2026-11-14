@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Equity trading desk",
+    "description": "A local equity ledger for A-share, Hong Kong, and US markets, with live public quotes, T+1 rules, fees, margin, and 1x–10x leverage. Open it from the left sidebar entry \"股票交易台\". Simulated account only: no broker connection and no real orders. Quotes may be delayed and are not investment advice.",
+    "detail": "docs/DETAIL.md"
+  }
+}

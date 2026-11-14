@@ -1,0 +1,57 @@
+{
+  "name": "dsh-equity-desk",
+  "version": "0.1.0",
+  "description": "A local equity trading desk for DeepSeek Harness: live public A/HK/US quotes, T+1, fees, margin, and 1x–10x leverage. Simulated ledger only; no broker connection or real orders.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "locale",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.2-rc.3 <0.3.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "stocks",
+    "trading",
+    "equity",
+    "market-data"
+  ],
+  "author": "upinking",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upinking/dsh-equity-desk.git"
+  },
+  "homepage": "https://github.com/upinking/dsh-equity-desk#readme",
+  "bugs": {
+    "url": "https://github.com/upinking/dsh-equity-desk/issues"
+  }
+}
