@@ -28,11 +28,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794650471,
+          "publishTimestamp": 1794650745,
           "source": {
             "type": "git",
             "url": "https://github.com/upinking/dsh-equity-desk",
-            "commit": "d152316497eb5fb8885f3ddd6635efc5f6a500e8"
+            "commit": "275131e210203302574431c90b72a5805c4025a7"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.3 <0.3.0"
